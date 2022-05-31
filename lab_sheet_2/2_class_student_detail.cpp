@@ -22,7 +22,7 @@ class StudentInfo
     } 
     void display ()
     {
-        cout<<" Name\t";
+        cout<<"Name\t";
         cout<<"roll\t";
         cout<<"Adresss\t";
         cout<<"Result\t"<<endl;
