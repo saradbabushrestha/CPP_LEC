@@ -10,7 +10,7 @@ class shape
         width=a;
         height=b;
     }
-    void virtual showdata()
+    void  showdata()
     {
         cout<<"THe area is :"<<endl;
     }
@@ -25,7 +25,7 @@ class Rectangle : public shape
         width=a;
         height=b;
     }
-    void virtual showdata()
+    void  showdata()
     {
         cout<<"THe area is :"<<width*height<<endl;
     }
@@ -40,7 +40,7 @@ class triangle : public shape
         width=a;
         height=b;
     }
-    void virtual showdata()
+    void  showdata()
     {
         cout<<"THe area is :"<<width*height/2<<endl;
     }
