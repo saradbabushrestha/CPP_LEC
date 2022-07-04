@@ -33,7 +33,7 @@ class Reservation
     Reservation()
     {   
         srand(time(0));//random number generator
-        Rid = srand();
+        Rid = rand();
         cout<<"Enter date for reservation day"<<endl;
         cin >> Rdate;
     }
