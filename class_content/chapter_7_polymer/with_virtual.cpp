@@ -30,7 +30,7 @@ class Rectangle : public shape
         cout<<"THe area is :"<<width*height<<endl;
     }
 };
-class triangle : public shape
+class triangle : public  shape
 {
     protected :
     int width,height;

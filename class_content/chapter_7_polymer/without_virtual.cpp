@@ -3,7 +3,7 @@ using namespace std;
 class shape
 {
     protected:
-    int width,height;
+    int width,height ;
     public:
     shape(int a=0,int b=0)
     {
@@ -56,4 +56,4 @@ int main()
     s->showdata();
 }
 // when a function is made virtual it allows the program to decide at run time which functon
-//  to call BASED ON THE TYPE OF THE OBJECT POINTED BYT THE POINTER rather than TYPE OF THE POINTER ITSELF.
+//  to call BASED ON THE TYPE OF THE OBJECT POINTED BYT THE POINTER rather than TYPE OF THE POINTER ITSELF.git
